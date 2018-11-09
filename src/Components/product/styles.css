@@ -1,0 +1,45 @@
+.container {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px
+}
+
+.card {
+  background: #ccc;
+  border:2px solid;
+  justify-content: center;  
+  border-radius: 5px;
+  align-items: center;
+  padding: 20px;
+}
+
+.actions button, a {
+  border:5px solid;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  justify-content: space-between;
+  border-color: #da552f;
+  padding: 10px;
+}
+
+.actions a:hover, button:hover {
+  border:5px solid;
+  background: #da552f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: #da552f;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.5;
+}
+
+
+.container input{
+  margin-top: 10px;
+  border-radius: 5px;
+  min-width: 20px;
+  padding: 20px;
+  width: 100%;
+}
